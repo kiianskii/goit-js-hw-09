@@ -7,5 +7,5 @@ import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                
 			/>
 	</a>
 </li>
-`}function c(o){return o.map(n).join("")}function r(o){const p=c(o);e.container.innerHTML=p}r(t);new a(".gallery a");
+`}function c(o){return o.map(n).join("")}function r(o){const p=c(o);e.container.innerHTML=p}r(t);new a(".gallery a",{captionsData:"alt"});
 //# sourceMappingURL=commonHelpers2.js.map
