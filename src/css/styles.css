@@ -1,8 +1,15 @@
 body {
-  margin: 0;
+  margin: 16px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-ul {
+.gallery {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -31,4 +38,50 @@ img {
 .modal-img {
   width: 1112px;
   height: 640px;
+}
+
+.feedback-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+[name='email'] {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 3.5px;
+}
+[name='message'] {
+  width: 360px;
+  height: 80px;
+  border: 1px solid #808080;
+  border-radius: 3.5px;
+  margin-bottom: 16px;
+}
+
+button[type='submit'] {
+  border-color: transparent;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  color: white;
+  transition: all ease-in-out 250ms;
+}
+
+button[type='submit']:hover,
+button[type='submit']:focus {
+  background: #6c8cff;
 }
