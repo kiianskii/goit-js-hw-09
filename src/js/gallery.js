@@ -98,4 +98,4 @@ function renderImg(arr) {
 
 renderImg(images);
 
-new SimpleLightbox('.gallery a');
+new SimpleLightbox('.gallery a', {captionsData: 'alt'});
